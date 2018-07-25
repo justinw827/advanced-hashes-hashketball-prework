@@ -198,9 +198,10 @@ end
 
 def most_points_scored
   players = get_all_players
+  topScorer = " "
   max = 0
   players.each do |name|
-    if 
+    if
   end
 end
 
