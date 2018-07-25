@@ -135,7 +135,7 @@ def get_data_from_player(player_name, data)
   all_players = get_all_players
 
   all_players.reduce(nil) do |result, player_data|
-    if(player_data[:player_name] == player_name)
+    if (player_data[:player_name] == player_name)
       result = player_data[data]
     end
 
@@ -201,11 +201,12 @@ def most_points_scored
   topScorer = " "
   max = 0
   players.each do |name|
-    if num_points_scored(name) > max
-      topScorer = name
-    end
-  end
-  topScorer
+    num_points_scored(name)
+  #   if num_points_scored(name) > max
+  #     topScorer = name
+  #   end
+  # end
+  # topScorer
 end
 
 puts team_names
