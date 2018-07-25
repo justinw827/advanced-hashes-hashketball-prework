@@ -197,7 +197,11 @@ def big_shoe_rebounds
 end
 
 def most_points_scored
-  
+  players = get_all_players
+  max = 0
+  players.each do |name|
+    if 
+  end
 end
 
 puts team_names
