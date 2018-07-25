@@ -201,8 +201,11 @@ def most_points_scored
   topScorer = " "
   max = 0
   players.each do |name|
-    if
+    if num_points_scored(name) > max
+      topScorer = name
+    end
   end
+  topScorer
 end
 
 puts team_names
