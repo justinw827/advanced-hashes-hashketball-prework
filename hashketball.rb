@@ -201,7 +201,7 @@ def most_points_scored
   topScorer = " "
   max = 0
   players.each do |name|
-    topScorer = name
+    topScorer = num_points_scored(name)[:points]
       # if num_points_scored(name) > max
       #   topScorer = name
       # end
