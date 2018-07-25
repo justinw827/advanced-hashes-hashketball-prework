@@ -205,7 +205,7 @@ def most_points_scored
   #   if num_points_scored(name) > max
   #     topScorer = name
   #   end
-  # end
+  end
   # topScorer
 end
 
